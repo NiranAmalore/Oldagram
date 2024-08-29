@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Source Sans 3", sans-serif;
+    padding: 0;
+    background: #C6C6C6;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h3, p{
+    margin: 0px;
+}
+
+
+h3{
+    padding-top: 5px;
+    font-weight: 900;
+}
+
+p{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+h3[id^="likes-"] {
+    margin-left: 15px;
+}
+
+span{
+    font-weight: 900;
+}
+
+#header-container{
+    width: 630px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+}
+
+#padding-for-user-avatar{
+    display: inline-block;
+    padding: 16px 16px 0px 16px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid #C6C6C6;
+}
+
+#logo-resize{
+    width: 180px;
+    height: 80px;
+}
+
+.avatar-resize{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.section-container{
+    width: 630px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.user-section{
+    padding: 20px 10px 0px 10px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.padding-for-user-follower-avatar{
+    margin-right: 15px;
+}
+
+.post-resize{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.button-resizer{
+    height: 40px;
+    width: 40px;
+    margin: 0 10px;
+}
+
+.button-resizer:hover{
+    opacity: 0.5;
+}
+
+.appeals-bar{
+    margin-bottom: 10px;
+}
+
+#likes{
+    margin: 0px 0px 10px 15px;
+}
+
+.following-info{
+    margin: 0px 10px 50px 15px;
+    padding-bottom: 30px;
+}
