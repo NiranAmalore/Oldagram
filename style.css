@@ -6,7 +6,10 @@ html, body {
     font-family: "Source Sans 3", sans-serif;
     padding: 0;
     background: #C6C6C6;
-    max-width: 600px;
+}
+
+body{
+    max-width: 300px;
     margin: 0 auto;
 }
 
