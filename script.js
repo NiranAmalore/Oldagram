@@ -50,16 +50,19 @@ for(let i = 0; i < posts.length; i++){
                 <div class="appeals-bar">
                     <img class="button-resizer like-button" src="images/icon-heart.png" alt="like button" data-index="${i}">
                     <img class="button-resizer" src="images/icon-comment.png" alt="comment button">
-                    <img class="button-resizer" src="images/icon-dm.png" alt="share button">
+                    <img class="button-resizer" src="images/icon-dm.png" alt="share button"> 
                 </div>
                 <h3 id="likes-${i}">${posts[i].likes} likes</h3>
                 <div class="following-info">
                     <p><span>${posts[i].username}</span> ${posts[i].comment}</p>
                 </div>
+                <div class='seperator'>
+                </div>
             </div>
         </section>
         `
 }
+
 
 oldagramPost.innerHTML = oldagramPostText
 
