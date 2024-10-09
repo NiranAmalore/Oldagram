@@ -4,32 +4,27 @@
 
 html, body {
     font-family: "Source Sans 3", sans-serif;
-    padding: 0;
     background: #C6C6C6;
-}
-
-body{
-    min-width: 300px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 h3, p{
-    margin: 0px;
+    margin: 0;
 }
 
 
 h3{
-    padding-top: 5px;
+    padding-top: 0.3125rem;
     font-weight: 900;
 }
 
 p{
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: 600;
 }
 
 h3[id^="likes-"] {
-    margin-left: 15px;
+    margin-left: 0.8em;
 }
 
 span{
@@ -37,45 +32,40 @@ span{
 }
 
 #header-container{
-    width: 630px;
-    margin: 0 auto;
-    padding: 10px;
+    width: 100%;
+    max-width: 630px;
+    padding: 0.625em;
     background-color: white;
-}
-
-#padding-for-user-avatar{
-    display: inline-block;
-    padding: 16px 16px 0px 16px;
 }
 
 .flex{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     border-bottom: 2px solid #C6C6C6;
 }
 
 #logo-resize{
-    width: 180px;
-    height: 80px;
+    width: 11.25em;
+    height: 5em;
 }
 
 .avatar-resize{
-    width: 55px;
-    height: 55px;
+    width: 3.4375em;
+    height: 3.4375em;
     border-radius: 50%;
 }
 
 .section-container{
-    width: 630px;
-    margin: 0 auto;
+    width: 100%;
+    max-width: 630px;
     background-color: white;
 }
 
 .user-section{
-    padding: 20px 10px 0px 10px;
+    padding: 1.25em 0.625em 0px 0.625em;
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
 }
 
 .padding-for-user-follower-avatar{
@@ -84,13 +74,13 @@ span{
 
 .post-resize{
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
 }
 
 .button-resizer{
-    height: 40px;
-    width: 40px;
-    margin: 0 10px;
+    height: 2em;
+    width: 2em;
+    margin: 0 0.625em;
 }
 
 .button-resizer:hover{
@@ -98,14 +88,30 @@ span{
 }
 
 .appeals-bar{
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
 }
 
 #likes{
-    margin: 0px 0px 10px 15px;
+    margin: 0px 0px 0.625em 0.9375em;
 }
 
 .following-info{
-    margin: 0px 10px 50px 15px;
-    padding-bottom: 30px;
+    margin: 0px 0.625em 0 0.9375em;
+    padding-bottom: 1.25em;
+
+}
+
+.seperator{
+    border-bottom: 3px solid #C6C6C6 ;
+    width: 100%;
+}
+
+@media(min-width: 631px){
+    #header-container{
+        margin: 0 auto;        
+    }
+
+    .section-container{
+        margin: 0 auto;
+    }
 }
